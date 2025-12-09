@@ -8,9 +8,9 @@
     gap: 5px;
 
     &-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
 
       svg {
         transition: all 0.3s ease;
@@ -34,6 +34,7 @@
     overflow: hidden;
     padding: 10px 0;
     width: 160px;
+    z-index: 1;
 
     ul {
       overflow: hidden;
